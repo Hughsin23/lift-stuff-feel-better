@@ -6,7 +6,7 @@ import { Routes, Route, Link } from "react-router-dom"
 const options = {
     method: 'GET',
     headers: {
-        'X-RapidAPI-Key': '03adb208c6msh71e19f305dcd0bfp1e1eafjsndabda28f1484',
+        'X-RapidAPI-Key': '',
         'X-RapidAPI-Host': 'exercises-by-api-ninjas.p.rapidapi.com'
     }
 };
