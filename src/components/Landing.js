@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import Excersize from "./Excersize";
+import Exercise from "./Exercise";
 
 
 
@@ -13,7 +13,7 @@ export default function LandingPage ({}) {
         <div>
 
             <h1>hi welcome ye good</h1>
-            <Excersize />
+            <Exercise />
 
         </div>
     )
