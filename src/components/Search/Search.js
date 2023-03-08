@@ -61,6 +61,7 @@ export default function Exercise({ }) {
             {exercises[0] && <h1>{exercises.map((exercise) => {
                 return (
                     <>
+                        {/* TODO create the exercise component, put it here in a link with the prop of the entire exercise object */}
                         <h3>{exercise.name}</h3>
                         <li>{exercise.difficulty}</li>
                         <li>{exercise.equipment}</li>
