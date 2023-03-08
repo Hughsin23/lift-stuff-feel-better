@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import LandingPage from './components/Landing.js'
+import { Routes, Route, Link } from 'react-router-dom'
+import LandingPage from './components/Landing/Landing'
+import Search from "./components/Search/Search"
 
 function App() {
   return (
     <div className="App">
-     <LandingPage />
+      <Search />
     </div>
   );
 }
